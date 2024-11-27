@@ -1,10 +1,18 @@
 body {
      font-family: "Roboto", sans-serif;
-     font-size: 200%;
+     font-size: 300%;
      text-align: center;
      background-color: rgb(45, 202, 255);
 }
 span.done {
      color:grey;
      text-decoration: line-through;
+}
+h1 {
+     background-color: rgb(0, 105, 139);
+     margin-left: 35%;
+     margin-right: 35%;
+}
+.todo-list li{
+     font-size: 50%;
 }
