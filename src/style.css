@@ -1,0 +1,10 @@
+body {
+     font-family: "Roboto", sans-serif;
+     font-size: 200%;
+     text-align: center;
+     background-color: rgb(45, 202, 255);
+}
+span.done {
+     color:grey;
+     text-decoration: line-through;
+}
