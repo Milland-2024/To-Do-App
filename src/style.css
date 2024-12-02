@@ -9,20 +9,25 @@ span.done {
      text-decoration: line-through;
 }
 h1 {
-     background-color: rgb(171, 234, 255);
+     background-color: rgb(255, 255, 255);
+     margin-left: 35%;
+     margin-right: 35%;
+}
+h2 {
+     background-color: rgb(255, 255, 255);
      margin-left: 35%;
      margin-right: 35%;
 }
 .todo-list li{
      font-size: 100%;
-     background-color: rgb(171, 234, 255);
+     background-color: rgb(255, 255, 255);
      margin-left: 40%;
      margin-right: 40%;
      text-align: center;
 }
 .done-list {
      font-size: 100%;
-     background-color: rgb(171, 234, 255);
+     background-color: rgb(255, 255, 255);
      margin-left: 35%;
      margin-right: 35%;
 }

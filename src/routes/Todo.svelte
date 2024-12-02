@@ -45,9 +45,9 @@ $inspect(doneList);
      {/each}
 </ul>
 {#if (todoList.length == 0)}
-     <button disabled type="button">Delete All</button>
+     <button disabled type="button">Blow the Clouds Away!</button>
 {:else}
-     <button type="button" onclick={nuke}>Delete All</button>
+     <button type="button" onclick={nuke}>Blow the Clouds Away!</button>
 {/if}
 </div>
 
