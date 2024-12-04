@@ -31,3 +31,6 @@ h2 {
 h3 {
      background-color: rgb(84, 84, 84);
 }
+.todo-list ul {
+     padding: 0;
+}
