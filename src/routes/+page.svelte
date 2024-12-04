@@ -3,7 +3,7 @@
      import Todo from "./Todo.svelte";
 </script>
 
-<h1>Things To Do</h1>
-<h2>The Sky's the Limit!</h2>
+<h1>The Sky's the Limit</h1>
+<h2>To-Do List</h2>
 
 <Todo/>
