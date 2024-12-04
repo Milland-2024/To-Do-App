@@ -10,9 +10,11 @@ span.done {
 }
 h1 {
      background-color: rgb(255, 255, 255);
+     color: rgb(84, 84, 84);
 }
 h2 {
      background-color: rgb(255, 255, 255);
+     color: rgb(84, 84, 84);
 }
 .todo-list li{
      color: rgb(214, 214, 214);
