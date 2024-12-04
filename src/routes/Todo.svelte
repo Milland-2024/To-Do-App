@@ -53,7 +53,7 @@ $inspect(doneList);
 
 {#if (doneList.length > 0)}
 <div class="done-list">
-     <h2>Done Items</h2>
+     <h3>Done Items</h3>
      {#each doneList as item}
      <li>
           {item.text}
