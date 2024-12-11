@@ -1,9 +1,21 @@
 <script>
   import { text } from "@sveltejs/kit";
-
+  import {onMount} from 'svelte';
+  
 let todoItem = $state('');
 let todoList = $state([]);
 let doneList = $state([]);
+
+onMount(() => {
+     let storedList = localStorage.getItem('storedList');
+     if (storedList) {
+          todoList = (JSON.parse(storedList));
+     }
+})
+
+function updateList() {
+     return localStorage.setItem('storedList', JSON.stringify(todoList));
+}
 
 function addItem(event) {
      event.preventDefault();
@@ -15,14 +27,18 @@ function addItem(event) {
           done: false
      }];
      todoItem = '';
+     updateList();
 }
 function removeItem(index){
      todoList = todoList.toSpliced(index, 1);
+     updateList();
 }
 
 function nuke(){
      todoList = [];
+     localStorage.clear();
 }
+
 $effect (() => {
      doneList = todoList.filter((item) => item.done);
 })
